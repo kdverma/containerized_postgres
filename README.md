@@ -1,4 +1,4 @@
-
+# https://www.sumologic.com/blog/kubernetes-deploy-postgres/
 # create service nodeport
 kubectl expose deployment postgres --type=NodePort --port=5432 --name=postgres-service --dry-run=client -o yaml > postgres-service.yaml
 
